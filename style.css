@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+
+/*header menu*/
+.header-container{
+    background-color: #FCECDD;
+    text-align: center;
+    padding:15px;
+}
+
+.logo h1{
+    color:#FF6701;
+}
+
+.nav-menu{
+    justify-content: center;
+    margin-top: -25px;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #FF6701;
+    border-bottom: 2px solid #FEA82F;
+}
+
+/*banner section*/
+.banner-container{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #FEA82F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: 350px;
+    gap: 20px;
+}
+
+.banner-information{
+    display: flex;
+    flex-direction: column;
+    color:#F9FAF8;
+    flex-direction: column;
+    justify-content: left;
+    width: 350px;
+}
+
+.banner-information p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.banner-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    margin-bottom: -5px;
+}
+
+
+.banner-button{
+    background-color: #FF6701;
+    color:#F9FAF8;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: #FCECDD;
+}
+
+/*Services Section*/
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FCECDD;
+    padding: 60px;
+}
+
+.services-items-container{
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.services-title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF6701;
+}
+
+.services-image{
+    display: block;
+    margin: auto;
+}
+
+.services-item-description-1{
+    color: #FF6701;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+/* Testimonial Section */
+.testimonial-container{
+    background-color:#FF6701;
+    padding: 60px;
+    color: #F9FAF8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.testimonial-author{
+    text-align: right;
+}
+
+/* Call to Action Section*/
+.cta-container{
+    padding: 60px;
+
+}
+
+.cta-subcontainer{
+    background-color: #FEA82F;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#F9FAF8;
+    border-radius: 15px;
+}
+
+.cta-information{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cta-subheading{
+    margin-top: -15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cta-button{
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    color:#F9FAF8;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Footer*/
+.footer{
+    background-color: #FF6701;
+    padding: 2px;
+    color:#F9FAF8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
